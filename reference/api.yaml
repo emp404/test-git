@@ -91,6 +91,12 @@ paths:
                   lastName: Baker
                   dateOfBirth: '1985-10-02'
         description: Patch user properties to update.
+    post:
+      summary: ''
+      operationId: post-users-userId
+      responses:
+        '200':
+          description: OK
   '/users/{userId} - copy 3':
     parameters:
       - schema:
