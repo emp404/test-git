@@ -97,7 +97,7 @@ paths:
       responses:
         '200':
           description: OK
-      description: '12345678'
+      description: 12345678test
   '/users/{userId} - copy 3':
     parameters:
       - schema:
