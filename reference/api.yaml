@@ -97,7 +97,7 @@ paths:
       responses:
         '200':
           description: OK
-      description: qwe
+      description: '12345678'
   '/users/{userId} - copy 3':
     parameters:
       - schema:
